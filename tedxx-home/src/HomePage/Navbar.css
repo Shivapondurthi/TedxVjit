@@ -1,0 +1,173 @@
+/* Base styles for Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-scrolled {
+  background-color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar container */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Logo Section */
+.navbar-logo img {
+  height: 45px;
+}
+
+/* Navbar Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.navbar-links li {
+  margin: 0 10px;
+}
+
+.navbar-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.navbar-links li a:hover {
+  color: #ff3b3f;
+  transition: 0.3s ease;
+}
+
+/* Get Tickets Button */
+.navbar-button .get-tickets-btn {
+  background-color: #ff3b3f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navbar-button .get-tickets-btn:hover {
+  background-color: #ff565a;
+  transition: background-color 0.3s ease;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  height: 3px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.hamburger.open span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Show Navbar Links on Mobile */
+.navbar-links.active {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Hide the links initially */
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 0;
+  }
+
+  /* Hamburger icon appears on mobile */
+  .hamburger {
+    display: flex;
+  }
+
+  /* Get Tickets button appears in the menu on mobile */
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-links li {
+    margin: 10px 0;
+  }
+
+  .navbar-button {
+    display: none; /* Hide in the main navbar container on mobile */
+  }
+
+  /* Display the "Get Tickets" button inside the mobile menu */
+  .navbar-links::after {
+    content: "";
+    display: block;
+    height: 20px; /* Spacing between menu items and button */
+  }
+
+  .navbar-links.active + .navbar-button-mobile {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  /* Mobile button style */
+  .navbar-button-mobile {
+    display: none;
+  }
+
+  .navbar-button-mobile .get-tickets-btn {
+    background-color: #ff3b3f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .navbar-button-mobile .get-tickets-btn:hover {
+    background-color: #ff565a;
+    transition: background-color 0.3s ease;
+  }
+}

@@ -1,0 +1,226 @@
+/* Footer Container */
+.footer {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 30px;
+}
+
+/* Footer Logo */
+.footer-logo img {
+  max-width: 150px; /* Restrict the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-logo h2 {
+  display: none; /* Hide the text since using an image */
+}
+
+.footer-logo p {
+
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+/* Footer Links and Social Icons */
+.footer-links,
+.footer-social {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li,
+.footer-social li {
+  margin: 10px 0;
+}
+
+.footer-links li {
+  color: #888;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-links li:hover {
+  color: #ff3b3f;
+}
+
+.footer-social li {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social li i {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.footer-section h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-section h3 span {
+  color: #ff3b3f;
+}
+
+.footer-section p {
+  margin: 8px 0;
+  font-size: 1em;
+}
+
+.footer-section i {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9); /* Slightly darker to differentiate but blend */
+  padding: 10px 0;
+  color: #fff;
+  font-size: 0.9em;
+  margin-top: 20px; /* Ensure space between the main footer and footer-bottom */
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* Light border for visual separation */
+}
+
+/* Text Responsiveness - General */
+.footer p,
+.footer li,
+.footer h3 {
+  font-size: 1em; /* Default for larger screens */
+  line-height: 1.5; /* Improve text spacing */
+}
+
+/* Media Queries for Text Responsiveness */
+
+/* For tablets and smaller screens */
+@media (max-width: 1024px) {
+  .footer-bottom {
+    font-size: 0.85em; /* Reduce text size for tablets */
+    padding: 15px 0;
+  }
+
+  .footer p,
+  .footer li,
+  .footer h3 {
+    font-size: 0.95em; /* Slightly smaller text for tablets */
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 600px) {
+  .footer-bottom {
+    font-size: 0.8em; /* Further reduce text size for mobile */
+    padding: 15px 0;
+    margin-top: 15px; /* Reduce margin-top for a tighter layout */
+  }
+
+  .footer p,
+  .footer li,
+  .footer h3 {
+    font-size: 0.85em; /* Smaller text for mobile */
+    line-height: 1.4; /* Tighter line-height for mobile */
+  }
+
+  /* Make sure footer-bottom aligns properly with footer */
+  .footer-container {
+    padding-bottom: 0; /* Ensure the padding doesn't push the footer-bottom too far */
+  }
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller screens */
+@media (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .footer-section {
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-logo img {
+    max-width: 120px; /* Reduce logo size for tablets */
+  }
+
+  .footer-logo p {
+    font-size: 0.8em;
+  }
+
+  .footer-section h3 {
+    font-size: 1.2em;
+  }
+
+  .footer-section p {
+    font-size: 0.9em;
+  }
+
+  /* Align footer links and social icons centrally on tablets */
+  .footer-links, .footer-social {
+    text-align: center;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .footer-section {
+    padding: 0 10px;
+    margin-bottom: 15px;
+  }
+
+  .footer-logo img {
+    max-width: 100px; /* Further reduce logo size for mobile */
+  }
+
+  .footer-logo p {
+    font-size: 0.8em;
+  }
+
+  .footer-section h3 {
+    font-size: 1.1em;
+  }
+
+  .footer-section p {
+    font-size: 0.85em;
+  }
+
+  .footer-social li i,
+  .footer-section i {
+    font-size: 1em;
+  }
+
+  /* Align footer links and social icons centrally on mobile */
+  .footer-links, .footer-social {
+    text-align: center;
+  }
+  
+  .footer-links li, .footer-social li {
+    margin: 8px 0;
+  }
+}
