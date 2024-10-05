@@ -9,10 +9,10 @@
   transition: background-color 0.3s ease-in-out;
 }
 
-.navbar-scrolled {
+/* .navbar-scrolled {
   background-color: black;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Navbar container */
 .navbar-container {

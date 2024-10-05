@@ -79,9 +79,9 @@ const Navbar = ({ onSectionChange }) => {
           </li>
           <li>
             <a
-              href="#contact"
+              href="#contactus"
               onClick={() => {
-                onSectionChange("contact");
+                onSectionChange("contactus");
                 setMenuOpen(false);
               }}
             >

@@ -1,0 +1,97 @@
+/* Responsive Styles for Mobile and Small Screens */
+
+/* General Body Styles */
+@media only screen and (max-width: 768px) {
+    body {
+      padding: 0 15px;
+    }
+  }
+  
+  /* Navbar Adjustments */
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar-custom a {
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* Form Container Adjustments */
+  @media only screen and (max-width: 600px) {
+    .containers {
+      flex: 1 1 auto;
+      margin: 0;
+      padding: 0 20px;
+    }
+  
+    .app-title {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .app-form-group {
+      margin-bottom: 10px;
+    }
+  
+    .app-form-control {
+      font-size: 12px;
+      padding: 8px 0;
+    }
+  
+    .app-form-button {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 14px;
+    }
+  }
+  
+  /* Footer Adjustments */
+  @media only screen and (max-width: 600px) {
+    .footer-section {
+      padding: 30px 0;
+    }
+  
+    .footer-section h1 {
+      font-size: 1.5rem;
+    }
+  
+    .footer-section .nav-link {
+      font-size: 0.8rem;
+    }
+  
+    .box-3 p {
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* Screen Body Adjustments */
+  @media only screen and (max-width: 600px) {
+    .screen-body {
+      padding: 20px;
+      flex-direction: column;
+    }
+  
+    .screen-body-item {
+      padding: 20px;
+    }
+  
+    .screen-body-item.left {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Image Adjustments */
+  @media only screen and (max-width: 600px) {
+    .illustration-left-homepage {
+      width: 100%;
+      top: 10%;
+      transform: translateY(0);
+    }
+  
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+  }

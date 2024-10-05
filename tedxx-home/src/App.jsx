@@ -5,6 +5,8 @@ import Footer from './HomePage/Footer'; // Assuming you have a Footer component
 import Speakers from "./Speakers/speakers.jsx";
 import Teams from "./TeamPage/team.jsx";
 import AboutUs from "./AboutUs/AboutUs.jsx";
+import ContactUs from "./ContactUs/ContactUs.jsx";
+
 
 function App() {
   const [currentSection, setCurrentSection] = useState("home");
@@ -19,10 +21,10 @@ function App() {
         <div className="toplayer">
         <Navbar onSectionChange={handleSectionChange} />
           {currentSection === "home" && <div><Home/></div>}
-          {currentSection === "teams" && <Teams/>}
+          {currentSection === "teams" && <div><Teams/></div>}
           {currentSection === "speakers" && <Speakers />}
           {currentSection === "about" && <div><AboutUs/></div>}
-          {currentSection === "contact" && <div><ContactUs/></div>}
+          {currentSection === "contactus" && <div><ContactUs/></div>}
           {currentSection === "tickets" && <div>Get Tickets Section</div>}
           <Footer></Footer>
         </div>
@@ -30,6 +32,8 @@ function App() {
      
     </>
   );
+
+ 
 }
 
 export default App;
