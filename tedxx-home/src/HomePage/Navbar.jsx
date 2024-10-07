@@ -25,7 +25,7 @@ const Navbar = ({ onSectionChange }) => {
   }, []);
 
   return (
-    <nav className={`navbar ${navBackground ? "navbar-scrolled" : ""}`}>
+    <nav className={`navbar  ${navBackground ? "navbar-scrolled" : ""}`}>
       <div className="navbar-container">
         {/* Logo Section */}
         <div className="navbar-logo">

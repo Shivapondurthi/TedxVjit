@@ -8,10 +8,56 @@
   html {
     height: 100%;
   }
+
+  @keyframes spin-cube {
+    0% { transform: rotateX(0deg) rotateY(0deg); }
+    100% { transform: rotateX(360deg) rotateY(360deg); }
+  }
+  
+/* Glass Effect for the Contact Us Card */
+.glass-card {
+  background:transparent; /* Transparent background */
+  backdrop-filter: blur(1px); /* Background blur for glass effect */
+  -webkit-backdrop-filter: blur(15px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Border for glass look */
+  border-radius: 15px; /* Rounded corners */
+  color: white; /* White text for contrast */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Form Input Styling */
+.app-form-control {
+  background: transparent; /* Slightly transparent input fields */
+  border-radius: 10px; /* Rounded input fields */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* White border for inputs */
+  color: white; /* Text color */
+}
+
+/* Button Hover Effect */
+.btn-slide {
+  background-color: rgba(255, 0, 0, 0.8); /* Initial button color */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-slide:hover {
+  background-color: rgba(255, 0, 0, 1); /* Darker red on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .glass-card {
+    padding: 2rem; /* Adjust padding for smaller screens */
+  }
+
+  .app-form-control {
+    font-size: 1rem; /* Smaller font size for mobile */
+  }
+}
+
   
   body {
-    background-color: #121212;
-    color: #ffffff;
+    /* background-color: #121212; */
+    color: #d50909;
     overflow-x: hidden;
     scroll-behavior: smooth;
     position: relative;

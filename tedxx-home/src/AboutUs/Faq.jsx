@@ -24,7 +24,7 @@ const FAQItem = (props) => {
           isActive ? 'max-h-40' : 'max-h-0'
         }`}
       >
-        <div className="p-5 pt-0  text-opacity-60 leading-relaxed">
+        <div className="p-5 pt-0 font-semibold text-opacity-60 leading-relaxed">
           <p className='text-red-500'>{props.answer}</p>
         </div>
       </div>

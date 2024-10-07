@@ -10,7 +10,7 @@ const speakers = [
     posistion:"Vice Chairperson,ELico Ltd.",
     description: "Vanitha Datla is a highly accomplished professional with nearly three decades of experience in diverse sectors, including financial services, insurance, cement, power, security printing, instrumentation, BPO services, and healthcare in the USA and India. She serves as the Vice Chairperson of Elico and the Managing Director of Elico Healthcare Services Ltd, a Hyderabad-based company. She is a Chartered Financial Analyst and is pursuing a doctoral program at ISB on the Role of Women in Family Businesses. A strong advocate for diversity and women's empowerment, Vanitha has worked to improve women's corporate representation through policy development and mentoring. She also serves as treasurer of Women in Network, mentoring children from urban slums to enhance their education and quality of life.",
     image: "/Resources/media/vanitha_datla.jpg",
-    pattern: "bg-gradient-to-br from-red-900 to-black",
+    pattern: "bg-[linear-gradient(45deg,#d40000_25%,transparent_25%,transparent_50%,#dc2626_50%,#d40000_75%,transparent_75%,transparent)]",
     linkedin: "https://www.linkedin.com/in/emily-johnson",
     twitter: "https://twitter.com/emily_johnson",
     animation: {
@@ -24,7 +24,7 @@ const speakers = [
     posistion:"Athelet",
     description: "A test engineer by profession and the sole game changer of her life, Kiran Kanojia is the first female blade runner of India, transformed her life after losing a leg in a train accident. From a community where girls' education was discouraged, she broke barriers and refused to let her amputation define her future. Finding strength in the running, Kiran overcame pain and embraced life with resilience and determination. Her story inspires others to focus on their potential rather than limitations, proving that nothing is impossible with self-belief. Join us to hear her inspiring journey of courage and perseverance.",
     image: "/Resources/media/kiran_kanojia.jpg",
-    pattern: "bg-[linear-gradient(45deg,#000000_25%,transparent_25%,transparent_50%,#000000_50%,#000000_75%,transparent_75%,transparent)]",
+    pattern: "bg-[linear-gradient(45deg,#d40000_25%,transparent_25%,transparent_50%,#dc2626_50%,#d40000_75%,transparent_75%,transparent)]",
     linkedin: "https://www.linkedin.com/in/michael-chen",
     twitter: "https://twitter.com/michael_chen",
     animation: {
@@ -37,8 +37,8 @@ const speakers = [
     name: "Debabrata Sarkar",
     posistion:"Vice President-APAC,Algaeenergy",
     description: "Mr. Debabrata Sarkar, a TEDx speaker and accomplished C-level executive, boasts over 26 years of experience in the International Agriculture sector. An IIM Kolkata alumnus, he has held leadership roles at Monsanto, Chemtura, and Syngenta. Currently, he serves as CMD of MicroAlgae Solutions India Pvt Ltd, Director of AGMA Energy, and Vice President - APAC for AE Biologicals. Featured in top publications like Forbes and Fortune, Mr. Sarkar won back-to-back Best Bio Ag CEO Awards in 2022 and 2023, presented by Central Agriculture Minister Mr. Narendra Singh Tomar, recognizing his contributions to sustainable agriculture.",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80",
-    pattern: "bg-[linear-gradient(45deg,#000000_25%,transparent_25%,transparent_50%,#000000_50%,#000000_75%,transparent_75%,transparent)]",
+    image: "/Resources/media/debabrata_sarkar.png",
+    pattern: "bg-[linear-gradient(45deg,#d40000_25%,transparent_25%,transparent_50%,#dc2626_50%,#d40000_75%,transparent_75%,transparent)]",
     linkedin: "https://www.linkedin.com/in/sophia-rodriguez",
     twitter: "https://twitter.com/sophia_rodriguez",
     animation: {
@@ -52,7 +52,7 @@ const speakers = [
     posistion:"Founder,The Guiding Voice",
     description: "Naveen Samala is a remarkable individual whose journey is a powerful testament to perseverance and the relentless pursuit of dreams. Rising from a modest background, he has become a first-generation post-graduate, showcasing his ambition and dedication. Now a Global Portfolio Manager for Business Transformation, Naveen is also an Udemy instructor, author, career coach, CXO resume writer, guest faculty at BITS Pilani, and podcast visionary. His podcast, The Guiding Voice, ranked in the Global Top 2.5%, is the world’s only Quadrilingual podcast, inspiring millions. With expertise in leadership, productivity, and public speaking, his podcast recently won the Asia Podcast Award for Education, further amplifying his impact globally.",
     image: "/Resources/media/naveen_samala.jpg",
-    pattern: "bg-[linear-gradient(45deg,#000000_25%,transparent_25%,transparent_50%,#000000_50%,#000000_75%,transparent_75%,transparent)]",
+    pattern: "bg-[linear-gradient(45deg,#d40000_25%,transparent_25%,transparent_50%,#dc2626_50%,#d40000_75%,transparent_75%,transparent)]",
     linkedin: "https://www.linkedin.com/in/sophia-rodriguez",
     twitter: "https://twitter.com/sophia_rodriguez",
     animation: {
@@ -65,8 +65,8 @@ const speakers = [
     name: "Nikhil Desai",
     posistion:"Director of The Center For Excellence",
     description: "Nikhil Desai is dedicated to empowering individuals and organizations to unlock their true potential. Known for his energetic speaking style, he inspires and motivates participants to create lasting change in their lives and work environments. With over 33 years of experience, Nikhil has positively impacted more than a quarter-million participants across 42 countries, including India, the USA, Canada, Sweden, the UAE, and Singapore. His programs are designed to foster personal growth and organizational development. Nikhil has been featured in the media across multiple countries and has appeared on television and radio in India, the USA, the Philippines, South Africa, and Oman, making a global impact with his work",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80",
-    pattern: "bg-[linear-gradient(45deg,#000000_25%,transparent_25%,transparent_50%,#000000_50%,#000000_75%,transparent_75%,transparent)]",
+    image: "/Resources/media/nikhil_desai.jpg",
+    pattern: "bg-[linear-gradient(45deg,#d40000_25%,transparent_25%,transparent_50%,#dc2626_50%,#d40000_75%,transparent_75%,transparent)]",
     linkedin: "https://www.linkedin.com/in/sophia-rodriguez",
     twitter: "https://twitter.com/sophia_rodriguez",
     animation: {
@@ -79,8 +79,8 @@ const speakers = [
     name: "Krithivasam S",
     posistion:"Vice President HR at YourTribe",
     description: "Krithivasan's impressive background highlights his extensive 17+ years of HR experience and leadership in team building and growth initiatives. His roles at Virtusa and Pickyourtrail demonstrate his global reach and strategic acumen in campus strategy and partnerships. As Vice President of HR at YourTribe, he effectively combines his expertise in talent acquisition and HR services with a passion for advising startups. His educational background with an Executive MBA from XLRI Jamshedpur further complements his professional experience. Additionally, his love for travel and commitment to advising academic institutions reflect a well-rounded individual dedicated to fostering innovation and a people-centric HR approach. ",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80",
-    pattern: "bg-[linear-gradient(45deg,#000000_25%,transparent_25%,transparent_50%,#000000_50%,#000000_75%,transparent_75%,transparent)]",
+    image: "/Resources/media/krithivasan_s.jpg",
+    pattern: "bg-[linear-gradient(45deg,#d40000_25%,transparent_25%,transparent_50%,#dc2626_50%,#d40000_75%,transparent_75%,transparent)]",
     linkedin: "https://www.linkedin.com/in/sophia-rodriguez",
     twitter: "https://twitter.com/sophia_rodriguez",
     animation: {
