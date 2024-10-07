@@ -56,7 +56,7 @@ const AboutUs = () => {
                   key to unlocking the full potential of shared ideas.
                 </p>
               </div>
-              <div className="md:order-1 md:w-1/2 border border-red-500 inline-block mr-3 mt-5 mb-10">
+              <div className="md:order-1 md:w-1/2 border-2 border-red-500 inline-block mr-3 mt-5 mb-10">
                 <img className="img-fluid w-full mx-auto" src='./Resources/media/Tedx2.png' alt="Motto" />
               </div>
             </div>
@@ -74,7 +74,7 @@ const AboutUs = () => {
                   we aim to spark enduring change and create a brighter, more connected future for all.
                 </p>
               </div>
-              <div className="md:order-2 md:w-1/2 border border-red-600 rounded-lg inline-block mr-3 mt-5 mb-10">
+              <div className="md:order-2 md:w-1/2 border-2 border-red-600  inline-block mr-3 mt-5 mb-10">
                 <img className="img-fluid w-full mx-auto " src="/Resources/media/e block.JPG" alt="Vision" />
               </div>
             </div>

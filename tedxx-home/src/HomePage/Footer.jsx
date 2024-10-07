@@ -1,7 +1,7 @@
 import React from "react";
-import "./Footer.css"; 
+import "./Footer.css";
 
-const Footer = ({onSectionChange}) => {
+const Footer = ({ onSectionChange }) => {
   return (
     <footer className="footer">
       <div className="footer-container">

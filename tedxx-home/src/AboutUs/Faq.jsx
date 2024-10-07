@@ -11,18 +11,16 @@ const FAQItem = (props) => {
       >
         <p>{props.question}</p>
         <span
-          className={`absolute right-5 text-red-600 text-3xl transition-transform duration-200 ${
-            isActive ? 'rotate-45' : ''
-          }`}
+          className={`absolute right-5 text-red-600 text-3xl transition-transform duration-200 ${isActive ? 'rotate-45' : ''
+            }`}
         >
           +
         </span>
       </div>
 
       <div
-        className={`overflow-hidden transition-all duration-300 ${
-          isActive ? 'max-h-40' : 'max-h-0'
-        }`}
+        className={`overflow-hidden transition-all duration-300 ${isActive ? 'max-h-40' : 'max-h-0'
+          }`}
       >
         <div className="p-5 pt-0 font-semibold text-opacity-60 leading-relaxed">
           <p className='text-red-500'>{props.answer}</p>

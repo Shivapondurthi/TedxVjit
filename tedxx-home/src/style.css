@@ -268,7 +268,7 @@ body {
 }
 
 /******************Power of Persistence****************************************************************************/
-/* Container styles */
+Container styles
 .hero-section {
   position: relative;
   background-color: transparent;
@@ -290,7 +290,7 @@ body {
   left: 0;
   width: 50%;
   height: 100%;
-  background-image: url('Resources/Images/Power_of_Persistence.png');
+  /* background-image: url('Resources/Images/Power_of_Persistence.png'); */
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
@@ -1120,7 +1120,7 @@ body {
   left: 0;
   width: 50%;
   height: 100%;
-  background-image: url('Resources/Images/Power_of_Persistence.png');
+  /* background-image: url('Resources/Images/Power_of_Persistence.png'); */
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
