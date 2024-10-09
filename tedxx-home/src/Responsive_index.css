@@ -167,8 +167,8 @@
 
 
   .about-illustration{
-    position: absolute;
-  top: 5%;
+    position: relative;
+  top: 15%;
   height: 90%!important;
   width: 100%!important;
   left:-5%;  
@@ -223,5 +223,146 @@
 
 
 }
+/* General Styles */
+.hero-section {
+  display: flex;
+  flex-direction: row; /* Row layout for desktop */
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 20px;
+  background-color: transparent;
+  color: white;
+}
 
+.hero-content {
+  flex: 1;
+  padding-left: 40px;
+  text-align: left;
+}
 
+.about-illustration {
+  flex: 1;
+  max-width: 50%; /* Take 50% of the width on desktop */
+  height: auto;
+}
+
+.heading-pop {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.paragraph-pop {
+  font-size: 1.25rem;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.learn-more-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #ff0000;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .hero-section {
+    display: felx;
+    position: absolute;
+    flex-direction: column; /* Stack image and content vertically */
+    align-items: center; /* Center both image and content */
+    text-align: center; /* Center content text on mobile */
+    padding: 10px;
+    height: auto; /* Allow flexible height */
+    margin-top: 100px;
+  
+  }
+
+  .about-illustration {
+    max-width: 100%; /* Full width on mobile */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the image */
+  }
+
+  .hero-content {
+    padding-left: 0; /* Remove left padding on mobile */
+    padding-right: 0; /* Ensure no horizontal padding */
+    width: 100%; /* Ensure hero content takes full width */
+    text-align: center; /* Center content on mobile */
+  }
+
+  .heading-pop {
+    font-size: 2rem; /* Smaller heading for mobile */
+  }
+
+  .paragraph-pop {
+    font-size: 1rem; /* Adjust font size for mobile */
+    text-align: center; /* Center text for mobile readability */
+  }
+
+  .learn-more-btn {
+    padding: 8px 16px; /* Adjust button size for mobile */
+  }
+}
+
+.about-section {
+  margin-top: 5%; /* Add some top space for breathing room */
+  margin-bottom: 5%; /* Reduce bottom space */
+  position: relative; /* Use relative instead of absolute */
+  width: 100%; /* Ensure it takes full width */
+}
+
+.about-section .about-heading p {
+  margin-bottom: 4px;
+}
+
+.about-section-content p {
+  line-height: 1.5;
+  color: #ffffff;
+  opacity: 0.6;
+  text-align: center; /* Center text, can be adjusted for mobile/desktop */
+}
+
+.about-section-content img {
+  margin-left: 0%;
+  transform: none; /* Remove translateX(-50%) to avoid unwanted shifting */
+}
+
+.about-section .paragraphs {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Adjust for mobile */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 20px;
+    position: relative; /* Ensure padding on smaller screens */
+  }
+
+  .about-section-content p {
+    font-size: 0.9rem; /* Adjust font size for readability */
+  }
+
+  .about-section-content img {
+    width: 100%; /* Ensure image takes full width on mobile */
+  }
+}
+.about-section-content p {
+  font-size: 0.5rem; /* Base font size */
+}
+
+@media (min-width: 768px) {
+  .about-section-content p {
+    font-size: 1.5rem;
+    text-align: left; /* Adjust font size for medium screens and larger */
+  }
+}

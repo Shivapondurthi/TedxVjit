@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Home from './HomePage/Home.jsx'; // Adjust the path based on your file structure
-import Navbar from './HomePage/Navbar'; // Assuming you have a Navbar component
-import Footer from './HomePage/Footer'; // Assuming you have a Footer component
+import Home from './HomePage/Home.jsx'; 
+import Navbar from './HomePage/Navbar'; 
+import Footer from './HomePage/Footer'; 
 import Speakers from "./Speakers/speakers.jsx";
 import Teams from "./TeamPage/team.jsx";
 import AboutUs from "./AboutUs/AboutUs.jsx";

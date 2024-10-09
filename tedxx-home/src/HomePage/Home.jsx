@@ -53,7 +53,7 @@ const Home = () => {
             marginLeft: '10px'
           }}
         />
-        <div className="container" style={{ marginTop: '130px', zIndex: '100' }}>
+        <div className="container" style={{ marginLeft:"60px", zIndex: '100' }}>
           <div className="row justify-content-evenly align-items-center">
             <div className="col-lg-6 box-1111 align-items-center">
               <div className="container mx-auto register">
@@ -114,12 +114,12 @@ const Home = () => {
 
 
 
-      <section class="hero-section flex flex-col md:flex-row items-center justify-between w-full p-4">
+      <section class="hero-section flex flex-col md:flex-row items-center justify-between w-full   p-4">
   <img class="w-full md:w-1/2 h-auto order-1 md:order-1 about-illustration" 
        src="Resources/Images/Power_of_Persistence.png" 
        alt="About Illustration" />
 
-  <div class="hero-content md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mt-4 md:mt-0 order-2 md:order-1">
+  <div class="hero-content w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mt-4 md:mt-0 order-2 md:order-1">
     <h1 class="heading-pop text-3xl md:text-5xl font-bold mb-4">
       POWER OF <em class="text-red-600">PERSISTENCE</em>
     </h1>
@@ -127,11 +127,13 @@ const Home = () => {
       The theme "<em class="text-red-500">Power of Persistence</em>"
       represents the strength and dedication needed to overcome obstacles and achieve greatness.
     </p>
-    <a href="#" class="learn-more-btn inline-block bg-red-600 text-white py-2 px-4 rounded-lg hover:bg-red-700 transition duration-300">
+    <a href="#" class="learn-more-btn inline-block bg-black-500 text-white py-2 px-4 hover:bg-red-700 transition duration-300">
       LEARN MORE →
     </a>
   </div>
 </section>
+
+
 
 
 
@@ -186,19 +188,19 @@ const Home = () => {
     <div className="flex flex-col md:flex-row items-center justify-evenly">
       <div className="w-full md:w-2/3">
         <div className="about-section-content">
-          <div className="about-heading flex flex-col md:flex-row items-center justify-center md:justify-start">
+          <div className="about-heading flex flex-row md:flex-row items-center">
             <p className="text-4xl md:text-5xl mt-4 md:mt-0">What is</p> 
             <img className="ml-0 md:ml-4 mt-4 md:mt-0 w-48 h-10" src="vjitmedia/TEDxVJIT_Navbar_About.png" alt="TEDx VJIT" />
           </div>
 
-          <div className="text-box text-center md:text-left mt-6">
-            <p className="py-2 text-lg md:text-xl font-light text-justify">
+          <div className="text-box text-center md:text-left ">
+            <p className="py-2 text-lg md:text-4xl text-red-600 text-justify">
               We are thrilled to announce VJIT's very own TEDx VJIT community! TEDx is a program of local, self-organized events that bring people together to share ideas and inspire action through powerful talks. Promises to be a day filled with thought-provoking presentations, inspiring stories, and engaging discussions.
             </p>
             <p className="py-2 text-lg md:text-xl font-light text-justify">
               Whether you're a budding entrepreneur, a passionate artist, or simply someone with a unique perspective to share, we encourage you to be a part of TEDx VJIT. This is your chance to be part of a movement that's sparking innovation and change around the world. Stay tuned for more information about speaker announcements, registration details, and exciting activities planned for the event!
             </p>
-            <h3 className="wevjit text-red-600 text-4xl mt-6">We The VJIT . . .</h3> 
+            <h3 className="wevjit text-red-500 text-4xl mt-6 text-left">We The VJIT . . .</h3> 
             <p className="py-2 text-lg md:text-xl font-light text-justify">
               Vidya Jyothi Institute of Technology is an Autonomous Institution, Approved by AICTE and Affiliated to JNTUH. VJIT is offering B. Tech, M. Tech and MBA programs. The institution is accredited by NAAC A+ grade. All the eligible B. tech programs are accredited by NBA under Tier I. In NIRF 2023, VJIT is in the band of 151-300 under Innovation Ranking. In 2022 Vjit is ranked 200 under Engineering Category.
             </p>
